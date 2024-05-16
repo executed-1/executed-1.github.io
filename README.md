@@ -1,5 +1,3 @@
-**# DISCLAIMER: 
-
 ## Legal Notice
 
 This website, GRABBED, and all its contents, including but not limited to text, images, design, code, and any other materials, are the intellectual property of Executed-1. 
@@ -17,4 +15,4 @@ If you have any questions regarding the use of this website or its contents, or 
 Thank you for your cooperation and understanding.
 
 Executed-1
-**
+
